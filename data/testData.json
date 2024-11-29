@@ -1,0 +1,29 @@
+{
+
+  "URL" : "https://demo.nopcommerce.com/",
+  "Login" : {
+
+    "ValidCredentials": {
+      "Username":"mena@gmail.com",
+      "Password" : "M@m0102273135"
+
+    },
+
+    "InvalidCredentials": {
+
+      "InvalidUsername": {
+
+        "Username": "One.one@yahoo.com",
+        "Password": "123"
+      },
+
+      "InvalidPassword": {
+        "Username": "mena@gmail.com",
+        "Password": "354"
+      }
+
+    }
+
+
+  }
+}
