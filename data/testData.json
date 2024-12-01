@@ -4,7 +4,7 @@
   "Login" : {
 
     "ValidCredentials": {
-      "Username":"mena@gmail.com",
+      "Username":"mena.makeen@hotmail.com",
       "Password" : "M@m0102273135"
 
     },
@@ -25,5 +25,19 @@
     }
 
 
-  }
+  },
+  "Register": {
+
+    "firstName":"Mina",
+    "lastName":"Makeen",
+    "email": "mena.makeen@hotmail.com",
+    "password": "M@m0102273135",
+    "confirmpassword": "M@m0102273135"
+  },
+  "Login1": [
+
+    ["mena.makeen@hotmail.com","M@m0102273135"],
+    ["One.one@yahoo.com","123"],
+    ["mena@gmail.com","354"]
+  ]
 }

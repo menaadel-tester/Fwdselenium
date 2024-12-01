@@ -13,12 +13,19 @@ public class LoginPage extends MethodsHandles {
 
     // locators
 
-    private final By userNamefield = By.id("Email");
+    private final By userNamefield = By.name("Email");
 
 
     private final By passwordfield = By.id("Password");
 
     private final By login_btn = By.cssSelector(".button-1.login-button");
+
+
+
+
+
+
+
 
     // Actions
 
@@ -45,6 +52,8 @@ public class LoginPage extends MethodsHandles {
         insertpassword(password);
         clickOnLoginButton();
     }
+
+
 
 
 }

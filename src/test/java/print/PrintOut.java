@@ -1,5 +1,6 @@
 package print;
 
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import reader.ReadFromJson;
 
@@ -50,6 +51,24 @@ public class PrintOut {
 
         System.out.println(readFromJson.readJsonFile().Login.InvalidCredentials.InvalidPassword.Username);
         System.out.println(readFromJson.readJsonFile().Login.InvalidCredentials.InvalidPassword.Password);
+    }
+
+    @DataProvider
+
+    public Object[][] t5DataProvider() throws FileNotFoundException {
+
+        readFromJson = new ReadFromJson();
+
+        return  readFromJson.readJsonFile().Login1;
+    }
+
+    @Test(dataProvider ="t5DataProvider")
+
+    public void t5(String username , String password){
+
+        System.out.println(username);
+        System.out.println(password);
+
     }
 
 }

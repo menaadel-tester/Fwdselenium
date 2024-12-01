@@ -7,4 +7,10 @@ public class DataModel {
 
     public Login Login ;
 
+    public Register Register ;
+
+    public Object[][] Login1 ;
+
+
+
 }

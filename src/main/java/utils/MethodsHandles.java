@@ -35,7 +35,9 @@ public class MethodsHandles {
 
    }
 
-    public WebElement webElement(By locator){
+    public WebElement webElement(By locator ){
+
+        explicitWait(locator,10);
 
         return driver.findElement(locator);
     }
